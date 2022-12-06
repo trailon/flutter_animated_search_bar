@@ -4,9 +4,7 @@ A new Flutter module project.
 
 ## Getting Started
 
-For help getting started with Flutter development, view the online
-[documentation](https://flutter.dev/).
+An animated search bar package for flutter.
+Credit: https://codepen.io/shrinaveenjack/pen/wvGjEoX#anon-login
 
-For instructions integrating Flutter modules to your existing applications,
-see the [add-to-app documentation](https://flutter.dev/docs/development/add-to-app).
-# flutter_animated_search_bar
+Will be improved in the future!
