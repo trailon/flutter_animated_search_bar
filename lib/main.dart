@@ -5,19 +5,19 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MaterialApp(home: MyApp()));
+  runApp(const MaterialApp(home: AnimSearchBar()));
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class AnimSearchBar extends StatefulWidget {
+  const AnimSearchBar({super.key});
 
   @override
-  MyAppState createState() => MyAppState();
+  AnimSearchBarState createState() => AnimSearchBarState();
 }
 
 int toggle = 0;
 
-class MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
+class AnimSearchBarState extends State<AnimSearchBar> with SingleTickerProviderStateMixin {
   late AnimationController _con;
   late TextEditingController _textEditingController;
   @override
